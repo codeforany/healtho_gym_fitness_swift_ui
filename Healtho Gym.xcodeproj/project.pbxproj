@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		CB12A2DB2B9F95EA009C0BFA /* Healtho_GymApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2DA2B9F95EA009C0BFA /* Healtho_GymApp.swift */; };
-		CB12A2DD2B9F95EA009C0BFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2DC2B9F95EA009C0BFA /* ContentView.swift */; };
 		CB12A2DF2B9F95EB009C0BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2DE2B9F95EB009C0BFA /* Assets.xcassets */; };
 		CB12A2E22B9F95EB009C0BFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2E12B9F95EB009C0BFA /* Preview Assets.xcassets */; };
+		CB12A2F12B9F966E009C0BFA /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2F02B9F966E009C0BFA /* OnBoardingScreen.swift */; };
+		CB12A2F32B9F96A3009C0BFA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F22B9F96A3009C0BFA /* Launch Screen.storyboard */; };
+		CB12A2F92B9F96D9009C0BFA /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F42B9F96D9009C0BFA /* Poppins-SemiBold.ttf */; };
+		CB12A2FA2B9F96D9009C0BFA /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F52B9F96D9009C0BFA /* Poppins-Light.ttf */; };
+		CB12A2FB2B9F96D9009C0BFA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F62B9F96D9009C0BFA /* Poppins-Bold.ttf */; };
+		CB12A2FC2B9F96D9009C0BFA /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F72B9F96D9009C0BFA /* Poppins-Medium.ttf */; };
+		CB12A2FD2B9F96D9009C0BFA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F82B9F96D9009C0BFA /* Poppins-Regular.ttf */; };
+		CB12A3002B9F974D009C0BFA /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2FF2B9F974D009C0BFA /* UIExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB12A2D72B9F95EA009C0BFA /* Healtho Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Healtho Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB12A2DA2B9F95EA009C0BFA /* Healtho_GymApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Healtho_GymApp.swift; sourceTree = "<group>"; };
-		CB12A2DC2B9F95EA009C0BFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB12A2DE2B9F95EB009C0BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB12A2E12B9F95EB009C0BFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB12A2F02B9F966E009C0BFA /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		CB12A2F22B9F96A3009C0BFA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CB12A2F42B9F96D9009C0BFA /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		CB12A2F52B9F96D9009C0BFA /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		CB12A2F62B9F96D9009C0BFA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		CB12A2F72B9F96D9009C0BFA /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		CB12A2F82B9F96D9009C0BFA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		CB12A2FE2B9F96E6009C0BFA /* Healtho-Gym-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Healtho-Gym-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CB12A2FF2B9F974D009C0BFA /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +66,17 @@
 		CB12A2D92B9F95EA009C0BFA /* Healtho Gym */ = {
 			isa = PBXGroup;
 			children = (
+				CB12A2FE2B9F96E6009C0BFA /* Healtho-Gym-Info.plist */,
+				CB12A2ED2B9F9650009C0BFA /* Screen */,
+				CB12A2EC2B9F9648009C0BFA /* Model */,
+				CB12A2EB2B9F963F009C0BFA /* ViewModel */,
+				CB12A2EA2B9F9633009C0BFA /* UICommon */,
+				CB12A2E92B9F962D009C0BFA /* Common */,
+				CB12A2E82B9F9625009C0BFA /* Fonts */,
 				CB12A2DA2B9F95EA009C0BFA /* Healtho_GymApp.swift */,
-				CB12A2DC2B9F95EA009C0BFA /* ContentView.swift */,
 				CB12A2DE2B9F95EB009C0BFA /* Assets.xcassets */,
 				CB12A2E02B9F95EB009C0BFA /* Preview Content */,
+				CB12A2F22B9F96A3009C0BFA /* Launch Screen.storyboard */,
 			);
 			path = "Healtho Gym";
 			sourceTree = "<group>";
@@ -65,6 +87,71 @@
 				CB12A2E12B9F95EB009C0BFA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB12A2E82B9F9625009C0BFA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A2F62B9F96D9009C0BFA /* Poppins-Bold.ttf */,
+				CB12A2F52B9F96D9009C0BFA /* Poppins-Light.ttf */,
+				CB12A2F72B9F96D9009C0BFA /* Poppins-Medium.ttf */,
+				CB12A2F82B9F96D9009C0BFA /* Poppins-Regular.ttf */,
+				CB12A2F42B9F96D9009C0BFA /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CB12A2E92B9F962D009C0BFA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CB12A2EA2B9F9633009C0BFA /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A2FF2B9F974D009C0BFA /* UIExtension.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		CB12A2EB2B9F963F009C0BFA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB12A2EC2B9F9648009C0BFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB12A2ED2B9F9650009C0BFA /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A2EF2B9F965C009C0BFA /* Login */,
+				CB12A2EE2B9F9656009C0BFA /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		CB12A2EE2B9F9656009C0BFA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB12A2EF2B9F965C009C0BFA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A2F02B9F966E009C0BFA /* OnBoardingScreen.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +212,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB12A2F32B9F96A3009C0BFA /* Launch Screen.storyboard in Resources */,
+				CB12A2FC2B9F96D9009C0BFA /* Poppins-Medium.ttf in Resources */,
+				CB12A2FB2B9F96D9009C0BFA /* Poppins-Bold.ttf in Resources */,
+				CB12A2FA2B9F96D9009C0BFA /* Poppins-Light.ttf in Resources */,
+				CB12A2F92B9F96D9009C0BFA /* Poppins-SemiBold.ttf in Resources */,
 				CB12A2E22B9F95EB009C0BFA /* Preview Assets.xcassets in Resources */,
 				CB12A2DF2B9F95EB009C0BFA /* Assets.xcassets in Resources */,
+				CB12A2FD2B9F96D9009C0BFA /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB12A2DD2B9F95EA009C0BFA /* ContentView.swift in Sources */,
+				CB12A2F12B9F966E009C0BFA /* OnBoardingScreen.swift in Sources */,
+				CB12A3002B9F974D009C0BFA /* UIExtension.swift in Sources */,
 				CB12A2DB2B9F95EA009C0BFA /* Healtho_GymApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +368,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Healtho Gym/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Healtho-Gym-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +398,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Healtho Gym/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Healtho-Gym-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

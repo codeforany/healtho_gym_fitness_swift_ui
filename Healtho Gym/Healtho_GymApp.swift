@@ -11,7 +11,10 @@ import SwiftUI
 struct Healtho_GymApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                OnBoardingScreen()
+            }
+            .navigationViewStyle(.stack)
         }
     }
 }
