@@ -77,6 +77,10 @@ extension Color {
         return Color(hex: "F1C40E")
     }
     
+    static var secondaryApp: Color {
+        return Color(hex: "102B46")
+    }
+    
     static var primaryText: Color {
         return Color(hex: "0C0B0B")
     }
@@ -147,6 +151,14 @@ extension View {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
     
+    func bgNavLink(content: some View, isAction: Binding<Bool> ) -> some View {
+        return self.background(
+            NavigationLink(destination: content, isActive: isAction, label: {
+                EmptyView()
+            })
+        )
+    }
+    
     var navHide: some View {
         return navigationTitle("")
             .navigationBarBackButtonHidden()
@@ -160,7 +172,7 @@ extension View {
             .navigationBarHidden(true)
     }
     
-    var maxConter: some View {
+    var maxCenter: some View {
         return frame(maxWidth: .infinity, alignment: .center)
     }
     

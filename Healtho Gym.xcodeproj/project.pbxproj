@@ -18,6 +18,14 @@
 		CB12A2FC2B9F96D9009C0BFA /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F72B9F96D9009C0BFA /* Poppins-Medium.ttf */; };
 		CB12A2FD2B9F96D9009C0BFA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F82B9F96D9009C0BFA /* Poppins-Regular.ttf */; };
 		CB12A3002B9F974D009C0BFA /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2FF2B9F974D009C0BFA /* UIExtension.swift */; };
+		CB4BA5F22BA0E1D400002CFD /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4BA5F12BA0E1D400002CFD /* SignUpScreen.swift */; };
+		CB4BA5F42BA0E4FC00002CFD /* MobileNumberScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4BA5F32BA0E4FC00002CFD /* MobileNumberScreen.swift */; };
+		CB4BA5F62BA0E66D00002CFD /* OTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4BA5F52BA0E66D00002CFD /* OTPScreen.swift */; };
+		CB4BA5F82BA0E91B00002CFD /* NameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4BA5F72BA0E91B00002CFD /* NameScreen.swift */; };
+		CB4BA5FA2BA0E9A300002CFD /* GoalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4BA5F92BA0E9A300002CFD /* GoalScreen.swift */; };
+		CBD3A1382BA23F8B00899663 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3A1372BA23F8B00899663 /* SettingScreen.swift */; };
+		CBD3A13A2BA23F9900899663 /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3A1392BA23F9900899663 /* SettingRow.swift */; };
+		CBD3A13C2BA23FA800899663 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3A13B2BA23FA800899663 /* ProfileScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +42,14 @@
 		CB12A2F82B9F96D9009C0BFA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		CB12A2FE2B9F96E6009C0BFA /* Healtho-Gym-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Healtho-Gym-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CB12A2FF2B9F974D009C0BFA /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		CB4BA5F12BA0E1D400002CFD /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		CB4BA5F32BA0E4FC00002CFD /* MobileNumberScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberScreen.swift; sourceTree = "<group>"; };
+		CB4BA5F52BA0E66D00002CFD /* OTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreen.swift; sourceTree = "<group>"; };
+		CB4BA5F72BA0E91B00002CFD /* NameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameScreen.swift; sourceTree = "<group>"; };
+		CB4BA5F92BA0E9A300002CFD /* GoalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalScreen.swift; sourceTree = "<group>"; };
+		CBD3A1372BA23F8B00899663 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		CBD3A1392BA23F9900899663 /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
+		CBD3A13B2BA23FA800899663 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +158,7 @@
 		CB12A2EE2B9F9656009C0BFA /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CBD3A1362BA23F7000899663 /* Setting */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -150,8 +167,23 @@
 			isa = PBXGroup;
 			children = (
 				CB12A2F02B9F966E009C0BFA /* OnBoardingScreen.swift */,
+				CB4BA5F12BA0E1D400002CFD /* SignUpScreen.swift */,
+				CB4BA5F32BA0E4FC00002CFD /* MobileNumberScreen.swift */,
+				CB4BA5F52BA0E66D00002CFD /* OTPScreen.swift */,
+				CB4BA5F72BA0E91B00002CFD /* NameScreen.swift */,
+				CB4BA5F92BA0E9A300002CFD /* GoalScreen.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		CBD3A1362BA23F7000899663 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CBD3A1372BA23F8B00899663 /* SettingScreen.swift */,
+				CBD3A1392BA23F9900899663 /* SettingRow.swift */,
+				CBD3A13B2BA23FA800899663 /* ProfileScreen.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +262,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4BA5F82BA0E91B00002CFD /* NameScreen.swift in Sources */,
+				CBD3A13A2BA23F9900899663 /* SettingRow.swift in Sources */,
 				CB12A2F12B9F966E009C0BFA /* OnBoardingScreen.swift in Sources */,
 				CB12A3002B9F974D009C0BFA /* UIExtension.swift in Sources */,
+				CBD3A13C2BA23FA800899663 /* ProfileScreen.swift in Sources */,
+				CBD3A1382BA23F8B00899663 /* SettingScreen.swift in Sources */,
+				CB4BA5F42BA0E4FC00002CFD /* MobileNumberScreen.swift in Sources */,
 				CB12A2DB2B9F95EA009C0BFA /* Healtho_GymApp.swift in Sources */,
+				CB4BA5F22BA0E1D400002CFD /* SignUpScreen.swift in Sources */,
+				CB4BA5FA2BA0E9A300002CFD /* GoalScreen.swift in Sources */,
+				CB4BA5F62BA0E66D00002CFD /* OTPScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
