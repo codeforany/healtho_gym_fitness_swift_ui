@@ -16,6 +16,8 @@ struct GoalScreen: View {
         ["name":"Other"]
     ]
     
+    @State var showValue = false
+    
     @State var selectIndex = 0
     
     
@@ -57,6 +59,7 @@ struct GoalScreen: View {
                     }
                     
                     Button {
+                        showValue = true
                     } label: {
                         Text("DONE")
                             .font(.customfont(.semiBold, fontSize: 14))
@@ -74,6 +77,7 @@ struct GoalScreen: View {
                 
             }
         }
+        .bgNavLink(content: EnterYourPhysiquesScreen(), isAction: $showValue)
         .navHide
     }
 }

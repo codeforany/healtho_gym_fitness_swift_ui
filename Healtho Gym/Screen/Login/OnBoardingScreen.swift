@@ -116,7 +116,6 @@ struct OnBoardingScreen: View {
                 .frame(width: 150, height: 50)
                 .background( Color.primaryApp )
                 .cornerRadius(25)
-                
             }
             .horizontal20
             .topWithSafe
